@@ -71,4 +71,29 @@ console.log(linguagens2)
 linguagens2.shift()
 console.log(linguagens2)
 
+//atividade 3
+//CRIE UM ARRAY VAZIO, FAÇA UM PROGRAMA
+//QUE PEÇA AO USUARIO 5 FRUTAS, E ADICIONE
+//TODAS AS FRUTAS NA LISTA VAZIA
+//MOSTRE NO CONSOLE A LISTA DE FRUTAS
+// const lista_de_frutas = []
+// const fruta1 = prompt("Digite uma fruta")
+// lista_de_frutas.push(fruta1)
+// const fruta2 = prompt("Digite uma fruta")
+// lista_de_frutas.push(fruta2)
+// const fruta3 = prompt("Digite uma fruta")
+// lista_de_frutas.push(fruta3)
+// const fruta4 = prompt("Digite uma fruta")
+// lista_de_frutas.push(fruta4)
+// const fruta5 = prompt("Digite uma fruta")
+// lista_de_frutas.push(fruta5)
+// console.log(lista_de_frutas)
+
+const lista_de_frutas = []
+for(let i = 0; i < 5; i++){
+    const fruta_digitada = prompt("Digite uma fruta")
+    lista_de_frutas.push(fruta_digitada)
+}
+console.log(lista_de_frutas)
+
 
